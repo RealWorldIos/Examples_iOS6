@@ -1,2 +1,4 @@
-Examples_iOS6
-=============
+Examples
+========
+
+Examples for the book
