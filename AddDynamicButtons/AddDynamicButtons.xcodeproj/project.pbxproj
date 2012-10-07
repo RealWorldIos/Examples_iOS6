@@ -15,6 +15,7 @@
 		052EF05515A4E1E600378187 /* AddDynamicButtonsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 052EF05415A4E1E600378187 /* AddDynamicButtonsAppDelegate.m */; };
 		052EF05815A4E1E600378187 /* AddDynamicButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052EF05715A4E1E600378187 /* AddDynamicButtonsViewController.m */; };
 		052EF05B15A4E1E600378187 /* AddDynamicButtonsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 052EF05915A4E1E600378187 /* AddDynamicButtonsViewController.xib */; };
+		05E394EC1621567B0051FD08 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E394EB1621567B0051FD08 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		052EF05615A4E1E600378187 /* AddDynamicButtonsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddDynamicButtonsViewController.h; sourceTree = "<group>"; };
 		052EF05715A4E1E600378187 /* AddDynamicButtonsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddDynamicButtonsViewController.m; sourceTree = "<group>"; };
 		052EF05A15A4E1E600378187 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AddDynamicButtonsViewController.xib; sourceTree = "<group>"; };
+		05E394EB1621567B0051FD08 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		052EF03515A4E1E500378187 = {
 			isa = PBXGroup;
 			children = (
+				05E394EB1621567B0051FD08 /* Default-568h@2x.png */,
 				052EF04A15A4E1E600378187 /* AddDynamicButtons */,
 				052EF04315A4E1E600378187 /* Frameworks */,
 				052EF04115A4E1E600378187 /* Products */,
@@ -151,6 +154,7 @@
 			files = (
 				052EF04F15A4E1E600378187 /* InfoPlist.strings in Resources */,
 				052EF05B15A4E1E600378187 /* AddDynamicButtonsViewController.xib in Resources */,
+				05E394EC1621567B0051FD08 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 				052EF06015A4E1E600378187 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

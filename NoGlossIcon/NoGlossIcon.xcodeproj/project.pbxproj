@@ -16,6 +16,7 @@
 		0521CA1415A80E190060DC65 /* NoGlossIconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0521CA1315A80E190060DC65 /* NoGlossIconViewController.m */; };
 		0521CA1715A80E190060DC65 /* NoGlossIconViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0521CA1515A80E190060DC65 /* NoGlossIconViewController.xib */; };
 		0521CA1E15A812DD0060DC65 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0521CA1D15A812DD0060DC65 /* icon.png */; };
+		05BE956C16215BD300ED04ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05BE956B16215BD300ED04ED /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		0521CA1315A80E190060DC65 /* NoGlossIconViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoGlossIconViewController.m; sourceTree = "<group>"; };
 		0521CA1615A80E190060DC65 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NoGlossIconViewController.xib; sourceTree = "<group>"; };
 		0521CA1D15A812DD0060DC65 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		05BE956B16215BD300ED04ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		0521C9F115A80E190060DC65 = {
 			isa = PBXGroup;
 			children = (
+				05BE956B16215BD300ED04ED /* Default-568h@2x.png */,
 				0521CA0615A80E190060DC65 /* NoGlossIcon */,
 				0521C9FF15A80E190060DC65 /* Frameworks */,
 				0521C9FD15A80E190060DC65 /* Products */,
@@ -155,6 +158,7 @@
 				0521CA0B15A80E190060DC65 /* InfoPlist.strings in Resources */,
 				0521CA1715A80E190060DC65 /* NoGlossIconViewController.xib in Resources */,
 				0521CA1E15A812DD0060DC65 /* icon.png in Resources */,
+				05BE956C16215BD300ED04ED /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +283,7 @@
 				0521CA1C15A80E190060DC65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05BE956516215B8300ED04ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05BE956416215B8300ED04ED /* Default-568h@2x.png */; };
 		05D903D0159FC582003A2CB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D903CF159FC582003A2CB4 /* UIKit.framework */; };
 		05D903D2159FC582003A2CB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D903D1159FC582003A2CB4 /* Foundation.framework */; };
 		05D903D4159FC582003A2CB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D903D3159FC582003A2CB4 /* CoreGraphics.framework */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05BE956416215B8300ED04ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		05D903CB159FC582003A2CB4 /* NoBouncing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoBouncing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D903CF159FC582003A2CB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		05D903D1159FC582003A2CB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,6 +52,7 @@
 		05D903C0159FC582003A2CB4 = {
 			isa = PBXGroup;
 			children = (
+				05BE956416215B8300ED04ED /* Default-568h@2x.png */,
 				05D903D5159FC582003A2CB4 /* NoBouncing */,
 				05D903CE159FC582003A2CB4 /* Frameworks */,
 				05D903CC159FC582003A2CB4 /* Products */,
@@ -151,6 +154,7 @@
 			files = (
 				05D903DA159FC582003A2CB4 /* InfoPlist.strings in Resources */,
 				05D903E6159FC582003A2CB4 /* NoBouncingViewController.xib in Resources */,
+				05BE956516215B8300ED04ED /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 				05D903EB159FC582003A2CB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

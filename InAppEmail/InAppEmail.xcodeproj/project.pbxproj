@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05B1F7A71621596100ED9E85 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B1F7A61621596100ED9E85 /* Default-568h@2x.png */; };
 		05D9042815A12CC5003A2CB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D9042715A12CC5003A2CB4 /* UIKit.framework */; };
 		05D9042A15A12CC5003A2CB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D9042915A12CC5003A2CB4 /* Foundation.framework */; };
 		05D9042C15A12CC5003A2CB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D9042B15A12CC5003A2CB4 /* CoreGraphics.framework */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05B1F7A61621596100ED9E85 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		05D9042315A12CC5003A2CB4 /* InAppEmail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InAppEmail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D9042715A12CC5003A2CB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		05D9042915A12CC5003A2CB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +55,7 @@
 		05D9041815A12CC5003A2CB4 = {
 			isa = PBXGroup;
 			children = (
+				05B1F7A61621596100ED9E85 /* Default-568h@2x.png */,
 				05D9044415A12D4B003A2CB4 /* MessageUI.framework */,
 				05D9042D15A12CC5003A2CB4 /* InAppEmail */,
 				05D9042615A12CC5003A2CB4 /* Frameworks */,
@@ -155,6 +158,7 @@
 			files = (
 				05D9043215A12CC5003A2CB4 /* InfoPlist.strings in Resources */,
 				05D9043E15A12CC5003A2CB4 /* InAppEmailViewController.xib in Resources */,
+				05B1F7A71621596100ED9E85 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

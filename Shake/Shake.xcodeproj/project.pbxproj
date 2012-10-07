@@ -15,6 +15,7 @@
 		05836B01159E70E00012BD09 /* ShakeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05836B00159E70E00012BD09 /* ShakeAppDelegate.m */; };
 		05836B04159E70E00012BD09 /* ShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05836B03159E70E00012BD09 /* ShakeViewController.m */; };
 		05836B07159E70E00012BD09 /* ShakeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05836B05159E70E00012BD09 /* ShakeViewController.xib */; };
+		05BE958816215D2C00ED04ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05BE958716215D2C00ED04ED /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		05836B02159E70E00012BD09 /* ShakeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShakeViewController.h; sourceTree = "<group>"; };
 		05836B03159E70E00012BD09 /* ShakeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakeViewController.m; sourceTree = "<group>"; };
 		05836B06159E70E00012BD09 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ShakeViewController.xib; sourceTree = "<group>"; };
+		05BE958716215D2C00ED04ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		05836AE1159E70E00012BD09 = {
 			isa = PBXGroup;
 			children = (
+				05BE958716215D2C00ED04ED /* Default-568h@2x.png */,
 				05836AF6159E70E00012BD09 /* Shake */,
 				05836AEF159E70E00012BD09 /* Frameworks */,
 				05836AED159E70E00012BD09 /* Products */,
@@ -151,6 +154,7 @@
 			files = (
 				05836AFB159E70E00012BD09 /* InfoPlist.strings in Resources */,
 				05836B07159E70E00012BD09 /* ShakeViewController.xib in Resources */,
+				05BE958816215D2C00ED04ED /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 				05836B0C159E70E00012BD09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

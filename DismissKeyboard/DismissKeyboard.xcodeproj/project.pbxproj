@@ -16,6 +16,7 @@
 		052EF0B815A5120C00378187 /* DismissKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052EF0B715A5120C00378187 /* DismissKeyboardViewController.m */; };
 		052EF0BB15A5120C00378187 /* DismissKeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 052EF0B915A5120C00378187 /* DismissKeyboardViewController.xib */; };
 		052EF0C315A77FB900378187 /* DismissKeyboardUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 052EF0C215A77FB900378187 /* DismissKeyboardUIView.m */; };
+		05E39516162158980051FD08 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E39515162158980051FD08 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		052EF0BA15A5120C00378187 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DismissKeyboardViewController.xib; sourceTree = "<group>"; };
 		052EF0C115A77FB900378187 /* DismissKeyboardUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissKeyboardUIView.h; sourceTree = "<group>"; };
 		052EF0C215A77FB900378187 /* DismissKeyboardUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissKeyboardUIView.m; sourceTree = "<group>"; };
+		05E39515162158980051FD08 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		052EF09515A5120C00378187 = {
 			isa = PBXGroup;
 			children = (
+				05E39515162158980051FD08 /* Default-568h@2x.png */,
 				052EF0AA15A5120C00378187 /* DismissKeyboard */,
 				052EF0A315A5120C00378187 /* Frameworks */,
 				052EF0A115A5120C00378187 /* Products */,
@@ -156,6 +159,7 @@
 			files = (
 				052EF0AF15A5120C00378187 /* InfoPlist.strings in Resources */,
 				052EF0BB15A5120C00378187 /* DismissKeyboardViewController.xib in Resources */,
+				05E39516162158980051FD08 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +285,7 @@
 				052EF0C015A5120C00378187 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -16,6 +16,7 @@
 		054BF496159662E300D88394 /* CustomFontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 054BF495159662E300D88394 /* CustomFontViewController.m */; };
 		054BF499159662E300D88394 /* CustomFontViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054BF497159662E300D88394 /* CustomFontViewController.xib */; };
 		054BF4A01596655100D88394 /* the beautiful ones.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 054BF49F1596631C00D88394 /* the beautiful ones.ttf */; };
+		05E3950F162158780051FD08 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E3950E162158780051FD08 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		054BF495159662E300D88394 /* CustomFontViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomFontViewController.m; sourceTree = "<group>"; };
 		054BF498159662E300D88394 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CustomFontViewController.xib; sourceTree = "<group>"; };
 		054BF49F1596631C00D88394 /* the beautiful ones.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "the beautiful ones.ttf"; sourceTree = "<group>"; };
+		05E3950E162158780051FD08 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		054BF473159662E300D88394 = {
 			isa = PBXGroup;
 			children = (
+				05E3950E162158780051FD08 /* Default-568h@2x.png */,
 				054BF488159662E300D88394 /* CustomFont */,
 				054BF481159662E300D88394 /* Frameworks */,
 				054BF47F159662E300D88394 /* Products */,
@@ -155,6 +158,7 @@
 				054BF48D159662E300D88394 /* InfoPlist.strings in Resources */,
 				054BF499159662E300D88394 /* CustomFontViewController.xib in Resources */,
 				054BF4A01596655100D88394 /* the beautiful ones.ttf in Resources */,
+				05E3950F162158780051FD08 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +283,7 @@
 				054BF49E159662E300D88394 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

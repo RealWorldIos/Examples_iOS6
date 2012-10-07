@@ -15,6 +15,7 @@
 		05D90329159E8717003A2CB4 /* EmptyStringAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D90328159E8717003A2CB4 /* EmptyStringAppDelegate.m */; };
 		05D9032C159E8717003A2CB4 /* EmptyStringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9032B159E8717003A2CB4 /* EmptyStringViewController.m */; };
 		05D9032F159E8717003A2CB4 /* EmptyStringViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05D9032D159E8717003A2CB4 /* EmptyStringViewController.xib */; };
+		05E3951D162158D60051FD08 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E3951C162158D60051FD08 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		05D9032A159E8717003A2CB4 /* EmptyStringViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmptyStringViewController.h; sourceTree = "<group>"; };
 		05D9032B159E8717003A2CB4 /* EmptyStringViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmptyStringViewController.m; sourceTree = "<group>"; };
 		05D9032E159E8717003A2CB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EmptyStringViewController.xib; sourceTree = "<group>"; };
+		05E3951C162158D60051FD08 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		05D90309159E8717003A2CB4 = {
 			isa = PBXGroup;
 			children = (
+				05E3951C162158D60051FD08 /* Default-568h@2x.png */,
 				05D9031E159E8717003A2CB4 /* EmptyString */,
 				05D90317159E8717003A2CB4 /* Frameworks */,
 				05D90315159E8717003A2CB4 /* Products */,
@@ -151,6 +154,7 @@
 			files = (
 				05D90323159E8717003A2CB4 /* InfoPlist.strings in Resources */,
 				05D9032F159E8717003A2CB4 /* EmptyStringViewController.xib in Resources */,
+				05E3951D162158D60051FD08 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 				05D90334159E8717003A2CB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

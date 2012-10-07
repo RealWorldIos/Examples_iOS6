@@ -15,6 +15,7 @@
 		054BF463159639C100D88394 /* InnerShadowAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 054BF462159639C100D88394 /* InnerShadowAppDelegate.m */; };
 		054BF466159639C100D88394 /* InnerShadowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 054BF465159639C100D88394 /* InnerShadowViewController.m */; };
 		054BF469159639C100D88394 /* InnerShadowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054BF467159639C100D88394 /* InnerShadowViewController.xib */; };
+		05B1F7AE1621598500ED9E85 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B1F7AD1621598500ED9E85 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		054BF464159639C100D88394 /* InnerShadowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InnerShadowViewController.h; sourceTree = "<group>"; };
 		054BF465159639C100D88394 /* InnerShadowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InnerShadowViewController.m; sourceTree = "<group>"; };
 		054BF468159639C100D88394 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/InnerShadowViewController.xib; sourceTree = "<group>"; };
+		05B1F7AD1621598500ED9E85 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		054BF443159639C100D88394 = {
 			isa = PBXGroup;
 			children = (
+				05B1F7AD1621598500ED9E85 /* Default-568h@2x.png */,
 				054BF458159639C100D88394 /* InnerShadow */,
 				054BF451159639C100D88394 /* Frameworks */,
 				054BF44F159639C100D88394 /* Products */,
@@ -151,6 +154,7 @@
 			files = (
 				054BF45D159639C100D88394 /* InfoPlist.strings in Resources */,
 				054BF469159639C100D88394 /* InnerShadowViewController.xib in Resources */,
+				05B1F7AE1621598500ED9E85 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 				054BF46E159639C100D88394 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

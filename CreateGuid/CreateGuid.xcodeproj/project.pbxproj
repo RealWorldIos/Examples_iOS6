@@ -15,6 +15,7 @@
 		0521C9E515A7FED80060DC65 /* CreateGuidAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0521C9E415A7FED80060DC65 /* CreateGuidAppDelegate.m */; };
 		0521C9E815A7FED80060DC65 /* CreateGuidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0521C9E715A7FED80060DC65 /* CreateGuidViewController.m */; };
 		0521C9EB15A7FED80060DC65 /* CreateGuidViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0521C9E915A7FED80060DC65 /* CreateGuidViewController.xib */; };
+		05E39508162157F30051FD08 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E39507162157F30051FD08 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		0521C9E615A7FED80060DC65 /* CreateGuidViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateGuidViewController.h; sourceTree = "<group>"; };
 		0521C9E715A7FED80060DC65 /* CreateGuidViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateGuidViewController.m; sourceTree = "<group>"; };
 		0521C9EA15A7FED80060DC65 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CreateGuidViewController.xib; sourceTree = "<group>"; };
+		05E39507162157F30051FD08 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		0521C9C515A7FED80060DC65 = {
 			isa = PBXGroup;
 			children = (
+				05E39507162157F30051FD08 /* Default-568h@2x.png */,
 				0521C9DA15A7FED80060DC65 /* CreateGuid */,
 				0521C9D315A7FED80060DC65 /* Frameworks */,
 				0521C9D115A7FED80060DC65 /* Products */,
@@ -151,6 +154,7 @@
 			files = (
 				0521C9DF15A7FED80060DC65 /* InfoPlist.strings in Resources */,
 				0521C9EB15A7FED80060DC65 /* CreateGuidViewController.xib in Resources */,
+				05E39508162157F30051FD08 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 				0521C9F015A7FED80060DC65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

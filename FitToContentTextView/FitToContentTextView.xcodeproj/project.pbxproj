@@ -15,6 +15,7 @@
 		052EF08915A4F50000378187 /* FitToContentTextViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 052EF08815A4F50000378187 /* FitToContentTextViewAppDelegate.m */; };
 		052EF08C15A4F50000378187 /* FitToContentTextViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052EF08B15A4F50000378187 /* FitToContentTextViewViewController.m */; };
 		052EF08F15A4F50000378187 /* FitToContentTextViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 052EF08D15A4F50000378187 /* FitToContentTextViewViewController.xib */; };
+		05B1F7A01621592100ED9E85 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B1F79F1621592100ED9E85 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		052EF08A15A4F50000378187 /* FitToContentTextViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FitToContentTextViewViewController.h; sourceTree = "<group>"; };
 		052EF08B15A4F50000378187 /* FitToContentTextViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitToContentTextViewViewController.m; sourceTree = "<group>"; };
 		052EF08E15A4F50000378187 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FitToContentTextViewViewController.xib; sourceTree = "<group>"; };
+		05B1F79F1621592100ED9E85 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		052EF06915A4F50000378187 = {
 			isa = PBXGroup;
 			children = (
+				05B1F79F1621592100ED9E85 /* Default-568h@2x.png */,
 				052EF07E15A4F50000378187 /* FitToContentTextView */,
 				052EF07715A4F50000378187 /* Frameworks */,
 				052EF07515A4F50000378187 /* Products */,
@@ -151,6 +154,7 @@
 			files = (
 				052EF08315A4F50000378187 /* InfoPlist.strings in Resources */,
 				052EF08F15A4F50000378187 /* FitToContentTextViewViewController.xib in Resources */,
+				05B1F7A01621592100ED9E85 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 				052EF09415A4F50000378187 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,6 +15,7 @@
 		052EF0E415A7B89800378187 /* NoPhoneLinkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 052EF0E315A7B89800378187 /* NoPhoneLinkAppDelegate.m */; };
 		052EF0E715A7B89800378187 /* NoPhoneLinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052EF0E615A7B89800378187 /* NoPhoneLinkViewController.m */; };
 		052EF0EA15A7B89800378187 /* NoPhoneLinkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 052EF0E815A7B89800378187 /* NoPhoneLinkViewController.xib */; };
+		05BE957316215C2B00ED04ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05BE957216215C2B00ED04ED /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		052EF0E515A7B89800378187 /* NoPhoneLinkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoPhoneLinkViewController.h; sourceTree = "<group>"; };
 		052EF0E615A7B89800378187 /* NoPhoneLinkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoPhoneLinkViewController.m; sourceTree = "<group>"; };
 		052EF0E915A7B89800378187 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NoPhoneLinkViewController.xib; sourceTree = "<group>"; };
+		05BE957216215C2B00ED04ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		052EF0C415A7B89800378187 = {
 			isa = PBXGroup;
 			children = (
+				05BE957216215C2B00ED04ED /* Default-568h@2x.png */,
 				052EF0D915A7B89800378187 /* NoPhoneLink */,
 				052EF0D215A7B89800378187 /* Frameworks */,
 				052EF0D015A7B89800378187 /* Products */,
@@ -151,6 +154,7 @@
 			files = (
 				052EF0DE15A7B89800378187 /* InfoPlist.strings in Resources */,
 				052EF0EA15A7B89800378187 /* NoPhoneLinkViewController.xib in Resources */,
+				05BE957316215C2B00ED04ED /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 				052EF0EF15A7B89800378187 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

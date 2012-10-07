@@ -16,6 +16,7 @@
 		05836AD1159E3D4A0012BD09 /* MoveUpForKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05836AD0159E3D4A0012BD09 /* MoveUpForKeyboardViewController.m */; };
 		05836AD4159E3D4A0012BD09 /* MoveUpForKeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05836AD2159E3D4A0012BD09 /* MoveUpForKeyboardViewController.xib */; };
 		05836AE0159E5C870012BD09 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05836ADF159E5C870012BD09 /* TPKeyboardAvoidingScrollView.m */; };
+		05BE955E16215B5100ED04ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05BE955D16215B5100ED04ED /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		05836AD3159E3D4A0012BD09 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MoveUpForKeyboardViewController.xib; sourceTree = "<group>"; };
 		05836ADE159E5C870012BD09 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
 		05836ADF159E5C870012BD09 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		05BE955D16215B5100ED04ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		05836AAE159E3D4A0012BD09 = {
 			isa = PBXGroup;
 			children = (
+				05BE955D16215B5100ED04ED /* Default-568h@2x.png */,
 				05836AC3159E3D4A0012BD09 /* MoveUpForKeyboard */,
 				05836ABC159E3D4A0012BD09 /* Frameworks */,
 				05836ABA159E3D4A0012BD09 /* Products */,
@@ -156,6 +159,7 @@
 			files = (
 				05836AC8159E3D4A0012BD09 /* InfoPlist.strings in Resources */,
 				05836AD4159E3D4A0012BD09 /* MoveUpForKeyboardViewController.xib in Resources */,
+				05BE955E16215B5100ED04ED /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +285,7 @@
 				05836AD9159E3D4A0012BD09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

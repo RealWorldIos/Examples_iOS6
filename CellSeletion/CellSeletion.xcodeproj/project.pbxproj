@@ -15,6 +15,7 @@
 		0546B57D1597B7370042F302 /* CellSelectionAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0546B57C1597B7370042F302 /* CellSelectionAppDelegate.m */; };
 		0546B5801597B7370042F302 /* CellSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0546B57F1597B7370042F302 /* CellSelectionViewController.m */; };
 		0546B5831597B7370042F302 /* CellSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0546B5811597B7370042F302 /* CellSelectionViewController.xib */; };
+		05E394F31621571C0051FD08 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E394F21621571C0051FD08 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		0546B57E1597B7370042F302 /* CellSelectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellSelectionViewController.h; sourceTree = "<group>"; };
 		0546B57F1597B7370042F302 /* CellSelectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellSelectionViewController.m; sourceTree = "<group>"; };
 		0546B5821597B7370042F302 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CellSelectionViewController.xib; sourceTree = "<group>"; };
+		05E394F21621571C0051FD08 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		0546B55D1597B7370042F302 = {
 			isa = PBXGroup;
 			children = (
+				05E394F21621571C0051FD08 /* Default-568h@2x.png */,
 				0546B5721597B7370042F302 /* CellSeletion */,
 				0546B56B1597B7370042F302 /* Frameworks */,
 				0546B5691597B7370042F302 /* Products */,
@@ -151,6 +154,7 @@
 			files = (
 				0546B5771597B7370042F302 /* InfoPlist.strings in Resources */,
 				0546B5831597B7370042F302 /* CellSelectionViewController.xib in Resources */,
+				05E394F31621571C0051FD08 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 				0546B5881597B7370042F302 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
